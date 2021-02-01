@@ -1,0 +1,2 @@
+FROM mysql
+COPY ./src/sklep_baza.sql ./docker-entrypoint-initdb.d
